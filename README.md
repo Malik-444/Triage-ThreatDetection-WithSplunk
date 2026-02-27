@@ -1,4 +1,4 @@
-# 🛡️ Atomic Red Team Detection Lab
+#  Atomic Red Team Detection Lab
 
 ## Overview
 
@@ -29,9 +29,9 @@ This project focuses on:
 
 ---
 
-## 🧰 Brief Setup
+##  Brief Setup
 
-### 1️⃣ Infrastructure
+### 1️⃣Infrastructure
 - Ubuntu Linux VM
 - Windows  VM
 - Splunk Enterprise (Docker container)
@@ -65,19 +65,19 @@ This project focuses on:
 
 ## Techniques Covered
 
-### 🐧 Linux
+### Linux
 - T1053.003 – Cron Persistence
 - T1059.004 – Unix Shell Execution
 - T1547 – Boot or Logon Autostart Execution
 
 ➡️ See full Linux implementation: [`/linux`](./linux)
 
-### 🪟 Windows
+### Windows
 - T1053.005 – Scheduled Task Persistence
 - T1059.001 – PowerShell Execution
 - T1547.001 – Registry Run Key Persistence
 
-➡️ See full Windows implementation: [`/windows`](./windows)
+See full Windows implementation: [`/windows`](./windows)
 
 ---
 <!---
